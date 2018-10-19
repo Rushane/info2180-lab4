@@ -14,7 +14,7 @@ window.onload = function () {
     }
 
     function mouseOver2() {
-        alert("You win");
+        alert("You win!");
     }
 }
 
