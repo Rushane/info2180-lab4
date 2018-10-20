@@ -3,7 +3,7 @@ window.onload = function () {
     var y = document.getElementById("end");
     var z = document.getElementById("start");
     var a = document.getElementById("status");
-    var b = document.getElementById("maze");
+    
     var i;
 
     for (i = 0; i < x.length; i++) {
@@ -11,7 +11,7 @@ window.onload = function () {
     }
     y.addEventListener("mouseover", winMazeAlert) // event listener for alert 
     z.addEventListener("click", resetMaze) // event listener for restarting
-    b.addEventListener("mouseleave",mouseOver); // event listener for leaving maze
+    
 
     function mouseOver() {
         for (i = 0; i < x.length; i++) {
